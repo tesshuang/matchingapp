@@ -1,0 +1,172 @@
+textarea{
+        width: 200px;
+        height: 200px;
+        margin: 2px;
+        resize: none;
+    }
+
+/*table{
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 5px;
+}*/
+
+.boxStyle input{
+    width: 400px;
+    display: block;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 2.5px;
+    border-color: #9fa3a7;
+    font-family: 'Montserrat', sans-serif;
+}
+.percentBox{
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+.CircularProgressbar {
+  /*
+   * This fixes an issue where the CircularProgressbar svg has
+   * 0 width inside a "display: flex" container, and thus not visible.
+   *
+   * If you're not using "display: flex", you can remove this style.
+   */
+  width: 250px;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #ffb13b;
+    stroke-linecap: square;
+    transition: stroke-dashoffset 0.5s ease 0s;
+    
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+    stroke: #d6d6d6;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #66cccc;
+    font-size: 25px;
+    font-family: 'Raleway, Helvetica, sans-serif';
+    dominant-baseline: central;
+    text-anchor: middle;
+}
+
+.blank{
+    width: auto;
+    height: 500px;
+    font-size: 40px;
+    display: block;
+}
+
+.newTable{
+    border-collapse: collapse;
+}
+
+.myselect{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    width:50%;
+    display: inline-block;
+}
+
+.msave {
+      width: 70px;
+      height: 25px;
+      border-radius: 30.5px;
+      background-color: #66cccc;
+      border: none;
+      font-size: 10px;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 2;
+      letter-spacing: 2.9px;
+      text-align: center;
+      color:white;
+      margin: auto;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      display: block;
+      transition: 0.3s;
+      float: right;
+}
+
+.msave:hover {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 0px;
+    border-color: #66cccc;
+    color: #66cccc;
+    background-color: white;
+}
+
+.viewm{
+      width: 265px;
+      height: 30px;
+      border-radius: 30.5px;
+      background-color: #66cccc;
+      border: none;
+      font-size: 10px;
+      font-weight: bold;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 2.5;
+      letter-spacing: 2px;
+      text-align: center;
+      color:white;
+      margin: auto;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      display: block;
+      transition: 0.3s;
+}
+.viewm:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 0px;
+    line-height: 2.5;
+    border-color: #66cccc;
+    color: #66cccc;
+    background-color: white;
+}
+.usernote{
+    font-size: 10pt;
+    color: #9fa3a7;
+}
+.mylink:link {
+    color: #66cccc;
+    text-decoration: none;
+}
+
+.mylink:visited {
+    color: #66cccc;
+    text-decoration: none;
+}
+
+.mylink:hover {
+    color:#ffb13b;
+    text-decoration: underline;
+}
+
+.mylink:active {
+    color: #66cccc;
+    text-decoration: underline;
+}
+
+.mrate{
+    font-family: 'Arvo', sans-serif;
+    font-size: 26pt;
+    text-align: center;
+    color: #292929;
+}
+.suggestbox{
+    text-align: left;
+}
