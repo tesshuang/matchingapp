@@ -42,7 +42,16 @@ class Selector extends Component {
                   { value: 'Marketing Financial Analyst', label: 'Marketing Financial Analyst', clearableValue:true },
                   { value: 'Tax manager', label: 'Tax Manager', clearableValue:true },
                   { value: 'Human resources manager', label: 'Human Resources Manager', clearableValue:true },
-                  { value: 'Insurance agent', label: 'Insurance Agent', clearableValue:true }
+                  { value: 'Insurance agent', label: 'Insurance Agent', clearableValue:true },
+                  { value: 'interior designer', label: 'Interior Designer', clearableValue:true },
+                  { value: 'visual designer', label: 'Visual Designer', clearableValue:true },
+                  { value: 'motion graphic designer', label: 'Motion Graphic Designer', clearableValue:true },
+                  { value: 'civil engineer', label: 'Civil Engineer', clearableValue:true },
+                  { value: 'mechanical engineer', label: 'Mechanical Engineer', clearableValue:true },
+                  { value: 'Electrical Engineer', label: 'Electrical Engineer', clearableValue:true },
+                  { value: 'Software Engineer', label: 'Software Engineer', clearableValue:true },
+                  { value: 'Quality Assurance Analyst', label: 'Quality Assurance Analyst', clearableValue:true },
+                  { value: 'java developer', label: 'Java Developer', clearableValue:true },
                 ]}
                 placeholder= {'Please select your job title'}
                 className={"myselect"}

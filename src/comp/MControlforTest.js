@@ -150,11 +150,11 @@ class MControl extends Component {
 	}
 	
 	clearText(num){
-		if(num == 1){ 
+		if(num === 1){ 
 			this.setState({
 			text1:""
 		}); 
-		} else if(num == 2){
+		} else if(num === 2){
 			this.setState({
 			text2:""
 		})
@@ -163,11 +163,11 @@ class MControl extends Component {
 	}
 	
 	textChange(mtext, num){		
-		if(num == 1){		
+		if(num === 1){		
 			this.setState({
 			text1:mtext
 		});
-		} else if(num == 2){
+		} else if(num === 2){
 			this.setState({
 			text2:mtext
 		});
@@ -183,11 +183,11 @@ class MControl extends Component {
 					newobj={},
 					localde;
 
-			if(type == 1){
+			if(type === 1){
 					arr = this.state.arrSlist;
 					narr = firstarr;
 					newobj=this.state.softobj;
-			} else if(type == 2){
+			} else if(type === 2){
 					arr = this.state.arrHlist;
 					narr = secarr;
 					newobj=this.state.hardobj;
@@ -218,14 +218,14 @@ class MControl extends Component {
 					}*/
 
 			}
-			if(type == 1){
+			if(type === 1){
 					var deno1 = (localde)?localde:0;
 					this.denominator1 = (localde)?localde:0;
 					this.setState({
 							de1:deno1
 					});
 			}
-			else if(type ==2){
+			else if(type ===2){
 					var deno2 = (localde)?localde:0;
 					this.denominator2 = (localde)?localde:0;
 					this.setState({
@@ -263,14 +263,14 @@ class MControl extends Component {
 							localnu = missingarr.length;
 					}
 			}
-			if(type ==1){
+			if(type ===1){
 					if(this.denominator1 !== 0){
 							this.numerator1 = this.denominator1 - localnu;
 					}else{
 							this.numerator1 = 0;
 					}
 			}
-			else if(type ==2){
+			else if(type ===2){
 					if(this.denominator2 !== 0){
 							this.numerator2 = this.denominator2 - localnu;
 					}else{
